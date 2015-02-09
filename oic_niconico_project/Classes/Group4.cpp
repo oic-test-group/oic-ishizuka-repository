@@ -116,6 +116,6 @@ void Group4::Member5()
 void Group4::Member6()
 {
     //コメント生成
-    Coment* pComent = Coment::create("Group1", Coment::NOMAL,Color4B::WHITE);
+    Coment* pComent = Coment::create("Group3", Coment::NOMAL,Color4B::WHITE);
     this->addChild(pComent);
 }
