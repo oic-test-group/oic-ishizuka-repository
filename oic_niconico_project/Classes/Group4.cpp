@@ -48,7 +48,14 @@ bool Group4::init(Point pos)
 
     return true;
 }
-
+/**
+ menuCallback関数に
+ 自分が編集したMember関数を下記の用に追加する。
+ void Group4::menuCallback(cocos2d::Ref *pSender)
+ {
+    Member1();
+ }
+ */
 void Group4::menuCallback(cocos2d::Ref *pSender)
 {
     Member1();
