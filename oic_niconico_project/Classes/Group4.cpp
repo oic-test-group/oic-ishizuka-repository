@@ -59,6 +59,7 @@ bool Group4::init(Point pos)
 void Group4::menuCallback(cocos2d::Ref *pSender)
 {
     Member3();
+    Member6();
 }
 
 /**
