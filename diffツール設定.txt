@@ -1,9 +1,9 @@
 [diff]
 	tool = WinMerge
-[difftool ÅgWinMergeÅh]
-	cmd = \ÅhC:/Program Files/WinMerge/WinMergeU.exe\Åh -e -ub -dl \ÅhLOCAL\Åh -dr \ÅhREMOTE\Åh \ÅhLOCAL\Åh \ÅhREMOTE\Åh
+[difftool ÅgWinMerge"]
+	cmd = \"C:/Program Files/WinMerge/WinMergeU.exe\" -e -ub -dl \"LOCAL\" -dr \"REMOTE\" \"LOCAL\" \"REMOTE\"
 [merge]
 	tool = WinMerge
-[mergetool ÅgWinMergeÅh]
-	cmd = \ÅhC:/Program Files/WinMerge/WinMergeU.exe\Åh -u -r \ÅhLOCAL\Åh  \ÅhMERGED\Åh  \ÅhREMOTE\Åh
+[mergetool ÅgWinMerge"]
+	cmd = \"C:/Program Files/WinMerge/WinMergeU.exe\" -u -r \"LOCAL\"  \"MERGED\"  \"REMOTE\"
 	trustExitCode = true
